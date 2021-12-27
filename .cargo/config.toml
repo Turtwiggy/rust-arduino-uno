@@ -2,7 +2,7 @@
 target = "avr-specs/avr-atmega328p.json"
 
 [target.'cfg(target_arch = "avr")']
-runner = "ravedude uno --baudrate 4800 --port /dev/ttyS3"
+runner = "ravedude uno --baudrate 9600 --port /dev/ttyS3"
 
 [unstable]
 build-std = ["core"]
